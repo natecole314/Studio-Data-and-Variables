@@ -7,7 +7,7 @@ let date = "Monday 2019-03-18";
 let time = "10:05:34 AM";
 let astronautCount = 7;
 let astronautStatus = "Ready";
-let averageAstronautMassKg = 80.7;
+let averageAstronautMassKg = input.question("Enter Astronaut Weight: ");
 let crewMassKg = (astronautCount*averageAstronautMassKg);
 let fuelMassKg = 760000;
 let shuttleMassKg = 74842.31;
@@ -45,7 +45,7 @@ console.log()
 console.log("------------------------------------")
 console.log("> OVERALL STATUS:")
 console.log("------------------------------------")
-console.log("* Clear  " + weatherStatus)
+console.log("* Clear for takeoff: YES")
 
 
 
